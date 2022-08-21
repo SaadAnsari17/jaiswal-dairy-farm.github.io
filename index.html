@@ -2,72 +2,171 @@
 <html lang="en">
 
 <head>
+    <style>
+        body {
+            background-image: url("backgroundimg.jpg");
+            background-attachment: fixed;
+        }
+
+        .main {
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        .sub-main {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .items {
+            font-size: 1.5rem;
+        }
+        .imgsize{
+            width: 20rem;
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <meta name="description" content="This is description">
-    <meta name="keywords" content="jaiswal dairy farm, jaiswal, dairy, dairy farm">
-    <meta name="robots" content="INDEX, FOLLOW">
-    <link rel="stylesheet" href="JAISWAL DAIRY FARM.css">
-    <title>JAISWAL DAIRY FARM</title>
-    <link rel="icon" href="jdf icon.png" type="image/x-icon">
+    <title>Jaiswal Dairy Farm</title>
 </head>
 
 <body>
-    <nav class="Navbar">
-        <a href="https://thesujaljaiswal.github.io/Jaiswal-Dairy-Farm.github.io/" target="_self"><img
-                src="jaiswal dairy farm.png" alt="Jaiswal Dairy Farm" width="400" height="30"></a>
+    <h1 class="main">MENU</h1>
+    <h2 class="sub-main">SWEETS SECTION</h2>
+    <table class="items">
+        <td>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="whitemalaipeda" class="imgsize" width="300" src="whitemalaipeda1.jpg" alt="icon"
+                        onmouseover="whitemalaipeda2()" onmouseout="whitemalaipeda1()"><br>Malai peda (White)<br>1 KG
+                    &rarr; 400 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="yellowmalaipeda" class="imgsize" width="300" src="yellowmalaipeda1.jpg" alt="icon"
+                        onmouseover="yellowmalaipeda2()" onmouseout="yellowmalaipeda1()"><br>Malai peda (yellow)<br>1 KG
+                    &rarr; 400 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="creammilkcake" class="imgsize"  src="creammilkcake1.jpg" alt="creammilkcake" onmouseover="creammilkcaek2()"
+                        onmouseout="creammilkcake1()"><br>Cream milk cake<br>1 KG &rarr;
+                    400 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="milkcake" class="imgsize" src="milkcake1.jpg" alt="milkcake" onmouseover="milkcaek2()"
+                        onmouseout="milkcake1()"><br>Milk cake<br>1 KG
+                    &rarr; 400 RS
+                </th>
+            </tr>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="malaibarfi" class="imgsize" src="malaibarfi1.jpg" alt="malai barfi" onmouseover="malaibarfi2()"
+                        onmouseout="malaibarfi1()"><br>Malai barfi<br>1 KG &rarr; 400 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="mavaroll" class="imgsize" src="mavaroll1.jpg" alt="mava roll" onmouseover="mavaroll2()"
+                        onmouseout="mavaroll1()"><br>Mava roll<br>1 KG &rarr; 400 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="whitepeda" class="imgsize" src="whitepeda1.jpg" alt="white peda" onmouseover="whitepeda2()"
+                        onmouseout="whitepeda1()"><br>Sada peda(White)<br>1 KG &rarr; 320 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="yellowpeda" class="imgsize" src="yellowpeda1.jpg" alt="yellow peda" onmouseover="yellowpeda2()"
+                        onmouseout="yellowpeda1()"><br>Sada peda(yellow)<br>1 KG &rarr; 320
+                    RS
+                </th>
+            </tr>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="motichoorladdu" class="imgsize" src="motichoorladdu1.jpg" alt="motichoor laddu"
+                        onmouseover="motichoorladdu2()" onmouseout="motichoorladdu1()"><br>Motichoor laddu<br>1 KG
+                    &rarr; 240 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="boondiladdu" class="imgsize" src="boondiladdu1.jpg" alt="boondi laddu" onmouseover="boondiladdu2()"
+                        onmouseout="boondiladdu1()"><br>Boondi laddu<br>1 KG &rarr; 200 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="besanladdu" class="imgsize" src="besanladdu1.jpg" alt="besan laddu" onmouseover="besanladdu2()"
+                        onmouseout="besanladdu1()"><br>Besan laddu<br>1 KG &rarr; 200 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="badamihalwa" class="imgsize" src="badamihalwa1.jpg" alt="badami halwa" onmouseover="badamihalwa2()"
+                        onmouseout="badamihalwa1()"><br>Badami halwa<br>1 KG &rarr; 200 RS
+                </th>
+            </tr>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="mahsoorpak" class="imgsize" src="mahsoorpak1.jpg" alt="mahsoor pak" onmouseover="mahsoorpak2()"
+                        onmouseout="mahsoorpak1()"><br>Mahasoor pak<br>1 KG &rarr; 200 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="khaja" class="imgsize" src="khaja1.jpg" alt="khaja" onmouseover="khaja2()"
+                        onmouseout="khaja1()"><br>Khaja<br>1 KG &rarr; 200 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="mahimhalwa" class="imgsize" src="mahimhalwa1.jpg" alt="mahimhalwa" onmouseover="mahimhalwa2()"
+                        onmouseout="mahimhalwa1()"><br>Mahim halwa<br>1 KG &rarr; 200 RS
+                </th>
+            </tr>
+        </td>
+    </table>
+    <h2 class="sub-main">BEVERAGES SECTION</h2>
+    <table class="items">
+        <td>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="samosa" class="imgsize" src="samosa1.jpg" alt="samosa" onmouseover="samosa2()"
+                        onmouseout="samosa1()"><br>Samosa<br>1 Peice &rarr; 10 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="kachori" class="imgsize" src="kachori1.jpg" alt="kachori" onmouseover="kachori2()"
+                        onmouseout="kachori1()"><br>Kachori<br>1 Peice &rarr; 15 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="lassi" class="imgsize" src="lassi1.jpg" alt="lassi" onmouseover="lassi2()"
+                        onmouseout="lassi1()"><br>Lassi<br>Full&rarr;30 RS<br>Half&rarr;15 RS
+                </th>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="meethasamosa" class="imgsize" src="meethasamosa1.jpg" alt="meetha samosa" onmouseover="meethasamosa2()"
+                        onmouseout="meethasamosa1()"><br>Meetha samosa<br>1 Peice &rarr; 10 RS
+                </th>
+            </tr>
+            <tr>
+                <th
+                    style="padding: 55px;filter: brightness(50%);filter: contrast(50%);filter: drop-shadow(10px 10px 10px black);">
+                    <img id="fafda" class="imgsize" src="fafda1.jpg" alt="fafda" onmouseover="fafda2()"
+                        onmouseout="fafda1()"><br>Fafda<br>1 kg &rarr; 300 RS
+                </th>
+            </tr>
+        </td>
+    </table>
 
-        <div class=homebutton>
-            <a href="https://thesujaljaiswal.github.io/Jaiswal-Dairy-Farm.github.io/" target="_self">Home</a>
-        </div>
-        <div class="vr"></div>
-        <div class="menubutton">
-            <a href="pmenu.html" target="_self">Menu</a>
-        </div>
-        <!-- <div class="vr"></div>
-        <div class="dropdown">
-            <button>Contact Us</button>
-            <div class="dropdown-content">
-                <a href="https://g.page/jaiswal-dairy-farm?share" target="_blank">Location</a>
-                <a href="https://www.instagram.com/jaiswal_dairy_farm/" target="_blank">Instagram</a>
-                <a href="https://mail.google.com/mail/" target="_blank">jaiswaldairyfarm@gmail.com</a>
-            </div>
-        </div> -->
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Contact Us
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://mail.google.com/mail/">jaiswaldairyfarm@gmail.com</a></li>
-                <li><a class="dropdown-item" href="https://www.instagram.com/jaiswal_dairy_farm/"
-                        target="_blank">Instagram</a></li>
-                <li><a class="dropdown-item" href="https://g.page/jaiswal-dairy-farm?share" target="_blank">Location</a>
-                </li>
-            </ul>
-        </div>
 
 
 
-        <!-- <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div> -->
-    </nav>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <script src="Pmenu.js"></script>
 </body>
 
 </html>
