@@ -9,6 +9,8 @@
 }
 .flexitem{
     background-color: white;
+    font-weight: bold;
+    font-style: sans-serif;
     border: 0.2rem solid rgb(255, 149, 166);
     box-shadow: 0.5rem 0.5rem 0.5rem  rgb(74, 77, 84);
     /* width: 15%;
